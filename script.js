@@ -27,6 +27,6 @@
         alert(`Welcome, ${name}. You can vote.`);
       })
       .catch(function () {
-        alert(`Oh sorry, ${name}. You aren't old enough.`);
+        alert(`Oh sorry ${name}. You aren't old enough.`);
       });
     });
